@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Adds prefix selection to top of forum view",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:if is=\"\\$pendingApproval\".+\\/xf:if>/isU",
+    "replace": "$0\n<xf:if is=\"{{ property('jaysc_prefix_display') == 'top' }}\">\n\t<xf:macro template=\"jaysc_prefix_macros\" name=\"prefix\" arg-entity=\"{$forum}\"\n\t\t\t  arg-condition=\"true\"\n\t\t\t  arg-view_prefix_id_extended=\"{$view_prefix_id_extended}\"\n\t\t\t  arg-prefixes=\"{$forum.prefixes}\" />\n</xf:if>"
+}

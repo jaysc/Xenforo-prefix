@@ -1,0 +1,44 @@
+.jPrefixBlock {
+	margin-bottom: 10px;
+}
+
+.jPrefixList {
+	display: flex;
+    padding: 10px;
+	gap: 8px;
+}
+
+.jPrefixShowAll {
+	flex: 0 0 auto;
+}
+
+.prefix--selected {
+	box-shadow: 0px 1px 2px black;
+	font-weight: 700;
+	transform: translateY(-2px);
+}
+
+.prefixList {
+	display: inline-flex;
+	gap: 2px;
+	flex-wrap: wrap;
+}
+
+.prefix--hide {
+	display: none !important;
+}
+
+button#toggle_prefix_display {
+	background: unset;
+	border: none;
+	color: @xf-linkColor;
+	cursor: pointer;
+}
+
+<xf:if is="property('sc_pf_mobile') == 'hide'">
+@media (max-width: @xf-responsiveNarrow) {
+	.scPrefixBlock {
+		display: none;
+	}
+}
+</xf:if>

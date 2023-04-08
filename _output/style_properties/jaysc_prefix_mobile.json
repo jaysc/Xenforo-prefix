@@ -1,0 +1,13 @@
+{
+    "group_name": "jayscprefix_properties",
+    "title": "Hide on mobile",
+    "description": "This style property allows you to hide the prefix filter on mobile device, by default : <b>Hide</b>.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "radio",
+    "value_parameters": "hide={{ phrase('jaysc_prefix_mobile_hide') }}\nshow={{ phrase('jaysc_prefix_mobile_show') }}",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": "hide",
+    "display_order": 100
+}

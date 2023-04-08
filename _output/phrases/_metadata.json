@@ -1,0 +1,122 @@
+{
+    "jaysc_prefix_display_bottom.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "2ad9d63b69c4a10a5cc9cad923133bc4"
+    },
+    "jaysc_prefix_display_top.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "a4ffdcf0dc1f31b9acaf295d75b51d00"
+    },
+    "jaysc_prefix_mobile_hide.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "62a5e490880a92eef74f167d9dc6dca0"
+    },
+    "jaysc_prefix_mobile_show.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "498f79c4c5bbde77f1bceb6c86fd0f6d"
+    },
+    "jaysc_prefix_show_all.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "eb92025cb8c66f1850c13a9b602a1856"
+    },
+    "jaysc_prefix_specific_prefix.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "a7a63ec201377cd2ebed96785f22ebbf"
+    },
+    "option.jaysc_prefix_label_color.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "c6eae9684fcf60e04439ba059462cdda"
+    },
+    "option.jaysc_prefix_show_prefixes_not_used.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "87390a63cac61819851a30a7ad040025"
+    },
+    "option.jaysc_prefix_show_prefixes_number.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "6f6ebf2983992a27e61b4b24cedf7257"
+    },
+    "option_explain.jaysc_prefix_label_color.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "819284e4cc418e961859a5019d6d1bf9"
+    },
+    "option_explain.jaysc_prefix_show_prefixes_not_used.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "94762e79e66930b44e886fd8f1e2cf08"
+    },
+    "option_explain.jaysc_prefix_show_prefixes_number.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "9a911fa7cde5b712ebf2eb640cebb325"
+    },
+    "option_group.JayscPrefix.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "266aadfe462bf7683d37510b11242fbb"
+    },
+    "option_group_description.JayscPrefix.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "375cb473168c3ccb9bb4ddd6729c8ae0"
+    },
+    "style_prop.jaysc_prefix_display.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "70f476101235127a37b538aa655f3567"
+    },
+    "style_prop.jaysc_prefix_mobile.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "8579b8af07da04fc0ccd62625349320f"
+    },
+    "style_prop_desc.jaysc_prefix_display.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "18ac89a4508648c1ccb9210abcba0b8f"
+    },
+    "style_prop_desc.jaysc_prefix_mobile.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "7fa45042adfada9cb524a411264e9016"
+    },
+    "style_prop_group.jayscprefix_properties.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "1bf8e0e3b8e087ab0c69fdbca5ad1aa1"
+    },
+    "style_prop_group_desc.jayscprefix_properties.txt": {
+        "global_cache": false,
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "84d69350cf53f48dd9058520b3584150"
+    }
+}

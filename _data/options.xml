@@ -1,2 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<options/>
+<options>
+  <option option_id="jaysc_prefix_label_color" edit_format="select" data_type="string" advanced="0">
+    <default_value>red</default_value>
+    <edit_format_params>red={{ phrase('sc_pf_red') }}
+green={{ phrase('sc_pf_green') }}
+olive={{ phrase('sc_pf_olive') }}
+lightGreen={{ phrase('sc_pf_light_green') }}
+blue={{ phrase('sc_pf_blue') }}
+royalBlue={{ phrase('sc_pf_royal_blue') }}
+skyBlue={{ phrase('sc_pf_sky_blue') }}
+gray={{ phrase('sc_pf_gray') }}
+silver={{ phrase('sc_pf_silver') }}
+yellow={{ phrase('sc_pf_yellow') }}
+orange={{ phrase('sc_pf_orange') }}
+error={{ phrase('sc_pf_error') }}</edit_format_params>
+    <relation group_id="JayscPrefix" display_order="10"/>
+  </option>
+  <option option_id="jaysc_prefix_show_prefixes_not_used" edit_format="onoff" data_type="string" advanced="0">
+    <default_value>true</default_value>
+    <relation group_id="JayscPrefix" display_order="20"/>
+  </option>
+  <option option_id="jaysc_prefix_show_prefixes_number" edit_format="onoff" data_type="string" advanced="0">
+    <default_value>true</default_value>
+    <relation group_id="JayscPrefix" display_order="30"/>
+  </option>
+</options>

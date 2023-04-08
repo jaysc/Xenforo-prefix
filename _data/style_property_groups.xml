@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style_property_groups/>
+<style_property_groups>
+  <style_property_group group_name="jayscprefix_properties" title="Jaysc - Prefix Filter" description="Customize the style of the Prefix Filter add-on by SyTry." display_order="10000"/>
+</style_property_groups>

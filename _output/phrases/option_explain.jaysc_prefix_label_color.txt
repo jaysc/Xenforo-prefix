@@ -1,0 +1,1 @@
+This option allows you to choose the color of your "Show all" prefix color, by default : <b>Red</b>.

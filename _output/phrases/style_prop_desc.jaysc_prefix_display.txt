@@ -1,0 +1,1 @@
+This style property allows you to change the position of the prefix filter, by default : <b>Top</b>.

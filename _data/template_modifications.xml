@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<template_modifications/>
+<template_modifications>
+  <modification type="public" template="forum_view" modification_key="forum_view_jaysc_prefix_bottom" description="Adds prefix selection to bottom of forum view" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[/<xf:ad position="forum_view_below_thread_list.*\/>/isU]]></find>
+    <replace><![CDATA[$0
+
+<xf:if is="{{ property('sc_pf_display') == 'bottom' }}">
+	<xf:macro template="jaysc_prefix_macros" name="prefix" arg-entity="{$forum}"
+			  arg-condition="true"
+			  arg-view_prefix_id_extended="{$view_prefix_id_extended}"
+			  arg-prefixes="{$forum.prefixes}" />
+</xf:if>]]></replace>
+  </modification>
+  <modification type="public" template="forum_view" modification_key="forum_view_jaysc_prefix_top" description="Adds prefix selection to top of forum view" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/<xf:if is="\$pendingApproval".+\/xf:if>/isU]]></find>
+    <replace><![CDATA[$0
+<xf:if is="{{ property('jaysc_prefix_display') == 'top' }}">
+	<xf:macro template="jaysc_prefix_macros" name="prefix" arg-entity="{$forum}"
+			  arg-condition="true"
+			  arg-view_prefix_id_extended="{$view_prefix_id_extended}"
+			  arg-prefixes="{$forum.prefixes}" />
+</xf:if>]]></replace>
+  </modification>
+</template_modifications>

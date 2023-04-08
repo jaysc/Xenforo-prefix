@@ -1,0 +1,13 @@
+{
+    "edit_format": "select",
+    "edit_format_params": "red={{ phrase('sc_pf_red') }}\ngreen={{ phrase('sc_pf_green') }}\nolive={{ phrase('sc_pf_olive') }}\nlightGreen={{ phrase('sc_pf_light_green') }}\nblue={{ phrase('sc_pf_blue') }}\nroyalBlue={{ phrase('sc_pf_royal_blue') }}\nskyBlue={{ phrase('sc_pf_sky_blue') }}\ngray={{ phrase('sc_pf_gray') }}\nsilver={{ phrase('sc_pf_silver') }}\nyellow={{ phrase('sc_pf_yellow') }}\norange={{ phrase('sc_pf_orange') }}\nerror={{ phrase('sc_pf_error') }}",
+    "data_type": "string",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "red",
+    "relations": {
+        "JayscPrefix": 10
+    }
+}

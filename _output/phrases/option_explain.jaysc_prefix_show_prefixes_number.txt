@@ -1,0 +1,1 @@
+This option allows you to hide prefixes number, by default : <b>Hide</b>.

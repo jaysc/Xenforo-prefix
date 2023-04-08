@@ -1,0 +1,12 @@
+{
+    "public/jaysc_prefix_filter.less": {
+        "version_id": 1030000,
+        "version_string": "1.3.0",
+        "hash": "c96edb84e9e710a093ba795a8a09ffc0"
+    },
+    "public/jaysc_prefix_macros.html": {
+        "version_id": 1030100,
+        "version_string": "1.3.1",
+        "hash": "da008fb2549655d145aed88e8c8c1970"
+    }
+}

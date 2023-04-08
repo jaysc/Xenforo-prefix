@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style_properties/>
+<style_properties>
+  <style_property property_name="jaysc_prefix_display" group_name="jayscprefix_properties" title="Display of prefix filter" description="This style property allows you to change the position of the prefix filter, by default : &lt;b&gt;Top&lt;/b&gt;." property_type="value" value_type="radio" display_order="200">
+    <value_parameters>top={{ phrase('jaysc_prefix_display_top') }}
+bottom={{ phrase('jaysc_prefix_display_bottom') }}</value_parameters>
+    <value>"top"</value>
+  </style_property>
+  <style_property property_name="jaysc_prefix_mobile" group_name="jayscprefix_properties" title="Hide on mobile" description="This style property allows you to hide the prefix filter on mobile device, by default : &lt;b&gt;Hide&lt;/b&gt;." property_type="value" value_type="radio" display_order="100">
+    <value_parameters>hide={{ phrase('jaysc_prefix_mobile_hide') }}
+show={{ phrase('jaysc_prefix_mobile_show') }}</value_parameters>
+    <value>"hide"</value>
+  </style_property>
+</style_properties>

@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<phrases/>
+<phrases>
+  <phrase title="jaysc_prefix_display_bottom" version_id="1030000" version_string="1.3.0"><![CDATA[Bottom]]></phrase>
+  <phrase title="jaysc_prefix_display_top" version_id="1030000" version_string="1.3.0"><![CDATA[Top]]></phrase>
+  <phrase title="jaysc_prefix_mobile_hide" version_id="1030000" version_string="1.3.0"><![CDATA[Hide]]></phrase>
+  <phrase title="jaysc_prefix_mobile_show" version_id="1030000" version_string="1.3.0"><![CDATA[Show]]></phrase>
+  <phrase title="jaysc_prefix_show_all" version_id="1030000" version_string="1.3.0"><![CDATA[Show all]]></phrase>
+  <phrase title="jaysc_prefix_specific_prefix" version_id="1030000" version_string="1.3.0"><![CDATA[Specific prefix:]]></phrase>
+  <phrase title="option.jaysc_prefix_label_color" version_id="1030000" version_string="1.3.0"><![CDATA[Label color]]></phrase>
+  <phrase title="option.jaysc_prefix_show_prefixes_not_used" version_id="1030000" version_string="1.3.0"><![CDATA[Hide prefixes not used]]></phrase>
+  <phrase title="option.jaysc_prefix_show_prefixes_number" version_id="1030000" version_string="1.3.0"><![CDATA[Hide prefixes number]]></phrase>
+  <phrase title="option_explain.jaysc_prefix_label_color" version_id="1030000" version_string="1.3.0"><![CDATA[This option allows you to choose the color of your "Show all" prefix color, by default : <b>Red</b>.]]></phrase>
+  <phrase title="option_explain.jaysc_prefix_show_prefixes_not_used" version_id="1030000" version_string="1.3.0"><![CDATA[This option allows you to hide prefixes not used, by default : <b>Hide</b>.]]></phrase>
+  <phrase title="option_explain.jaysc_prefix_show_prefixes_number" version_id="1030000" version_string="1.3.0"><![CDATA[This option allows you to hide prefixes number, by default : <b>Hide</b>.]]></phrase>
+  <phrase title="option_group.JayscPrefix" version_id="1030000" version_string="1.3.0"><![CDATA[[Jaysc] - Prefix]]></phrase>
+  <phrase title="option_group_description.JayscPrefix" version_id="1030000" version_string="1.3.0"><![CDATA[Settings for Jaysc/Prefix]]></phrase>
+  <phrase title="style_prop.jaysc_prefix_display" version_id="1030000" version_string="1.3.0"><![CDATA[Display of prefix filter]]></phrase>
+  <phrase title="style_prop.jaysc_prefix_mobile" version_id="1030000" version_string="1.3.0"><![CDATA[Hide on mobile]]></phrase>
+  <phrase title="style_prop_desc.jaysc_prefix_display" version_id="1030000" version_string="1.3.0"><![CDATA[This style property allows you to change the position of the prefix filter, by default : <b>Top</b>.]]></phrase>
+  <phrase title="style_prop_desc.jaysc_prefix_mobile" version_id="1030000" version_string="1.3.0"><![CDATA[This style property allows you to hide the prefix filter on mobile device, by default : <b>Hide</b>.]]></phrase>
+  <phrase title="style_prop_group.jayscprefix_properties" version_id="1030000" version_string="1.3.0"><![CDATA[Jaysc - Prefix Filter]]></phrase>
+  <phrase title="style_prop_group_desc.jayscprefix_properties" version_id="1030000" version_string="1.3.0"><![CDATA[Customize the style of the Prefix Filter add-on by SyTry.]]></phrase>
+</phrases>

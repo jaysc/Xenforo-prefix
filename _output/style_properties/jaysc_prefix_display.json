@@ -1,0 +1,13 @@
+{
+    "group_name": "jayscprefix_properties",
+    "title": "Display of prefix filter",
+    "description": "This style property allows you to change the position of the prefix filter, by default : <b>Top</b>.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "radio",
+    "value_parameters": "top={{ phrase('jaysc_prefix_display_top') }}\nbottom={{ phrase('jaysc_prefix_display_bottom') }}",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": "top",
+    "display_order": 200
+}

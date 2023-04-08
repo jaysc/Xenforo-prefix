@@ -2,9 +2,37 @@
 
 namespace Jaysc\Prefix\XF\Pub\Controller;
 
+use stdClass;
+use XF\Mvc\ParameterBag;
+
 class Forum extends XFCP_Forum
 {
     public const PREFIX_ID_EXTENDED = "prefix_id_extended";
+
+	public function actionForum(ParameterBag $params)
+    {
+        /** @var \XF\Mvc\Reply\View $result */
+        $result = Parent::actionForum($params);
+
+        $filters = $result->getParams()['filters'];
+
+        $view_prefix_id_extended = [];
+        if ($filters) {
+            $prefix_id_extended = $filters['prefix_id_extended'];
+
+            if ($prefix_id_extended) {
+                $view_prefix_id_extended['current'] = implode(',', $prefix_id_extended);
+
+                foreach ($prefix_id_extended as $value) {
+                    $view_prefix_id_extended[$value] = implode(',', array_diff($prefix_id_extended, [$value]));
+                }
+            }
+        }
+
+        $result->setParam('view_prefix_id_extended', $view_prefix_id_extended);
+        
+        return $result;
+    }
 
 	protected function getForumFilterInput(\XF\Entity\Forum $forum)
     {
@@ -18,7 +46,7 @@ class Forum extends XFCP_Forum
 
         if ($firstElement) {
             $string_ids = explode(",", $firstElement);
-            if (count($string_ids) > 1) {
+            if (count($string_ids) > 0) {
                 $prefix_ids = array_map(function ($string) {
                     return is_numeric($string) ? intval($string, 10) : null;
                 }, $string_ids);
